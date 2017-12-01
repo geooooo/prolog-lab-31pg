@@ -1,22 +1,3 @@
-% path(a, b).
-% path(b, a).
-% path(b, c).
-% path(c, b).
-% path(c, d).
-% path(d, c).
-% path(c, a).
-% path(a, c).
-%
-% move(X, Y) :-
-%     path(X, Y).
-% move(X, Y) :-
-% 	path(X, Z),
-% 	path(Z, Y).
-%
-% prolong([X|T],[Y,X|T]) :-
-%     move(X,Y),
-% 	not(member(Y,[X|T])).
-
 /*
     nodes
 */
